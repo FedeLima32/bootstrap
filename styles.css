@@ -1,0 +1,93 @@
+body{
+    background-image: url(./img/fondo3.jpg);
+    background-repeat: repeat;
+}
+
+.btn {
+    color: black;
+    border: black 1px solid;
+}
+
+.carousel-inner{
+    width: auto; 
+ }
+
+ .cards {
+     margin-top: 15px;
+     width: auto;
+     height: 400px;
+     margin-right: 5px;
+     border: 4px solid burlywood;
+     margin-bottom: 6px;
+ }
+
+ .efect:hover { 
+     color: rgb(151, 185, 248);
+ }
+
+ .size {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+
+ .navbar {
+     border-bottom: 1px burlywood solid;
+     box-shadow: black 2px;
+ }
+
+ .form-contact {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 10px;
+ }
+
+ .font-select {
+     font-size: 12px;
+ }
+
+ .color-text { 
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 2em;
+ }
+
+ .form-label {
+     color: black;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ .efect {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .efect-logo {
+     color: black;
+     font-weight: bold;
+     font-size: 22px;
+    animation-duration: 10s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    letter-spacing: 3px;
+ }
+
+ @keyframes aparecer {
+    0% {
+        color: blue;
+      }
+    25%{
+        color: rgb(5, 47, 66);
+      }
+
+    45%{
+        color: rgb(38, 4, 94);
+    }
+
+    70%{
+        color: rgb(58, 2, 58);
+    }
+      100% {
+        color: rgb(65, 2, 23);
+      }
+   
+}
