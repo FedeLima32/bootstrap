@@ -2,7 +2,7 @@
         background-image: url(./img/fondo3.jpg);
         background-repeat: repeat;
     }
-    
+ 
     .btn {
         color: black;
         border: black 1px solid;
@@ -54,11 +54,11 @@
     .color-text {
         color: forestgreen;
         font-weight: bold;
-        font-size: 2em;
+        font-size: 1em;
     }
     
     .form-label {
-        color: black;
+        color: #fff;
         font-weight: bold;
         font-size: 20px;
     }
@@ -90,15 +90,15 @@
             color: blue;
         }
         25% {
-            color: rgb(5, 47, 66);
+            color: rgb(13, 177, 253);
         }
         45% {
-            color: rgb(38, 4, 94);
+            color: rgb(99, 6, 248);
         }
         70% {
-            color: rgb(58, 2, 58);
+            color: rgb(248, 1, 248);
         }
         100% {
-            color: rgb(65, 2, 23);
+            color: rgb(253, 6, 88);
         }
     }
